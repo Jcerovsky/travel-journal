@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #2B283A;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    padding: 0.8em;
+    gap: 0.5em;
+}
+
+.nav__icon {
+    font-size: 1.5em;
+}
+
+.nav__text {
+    font-size: 0.9em;
+}
+
+section {
+    display: flex;
+    border-bottom: solid 1px #F5F5F5;
+    margin: 0 2.5em;
+    padding: 1.125em 0;
+}
+
+.section__img {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 1.125em;
+}
+
+.section__hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.85em;
+    margin-right: 2.5em;
+}
+
+.section__country,
+.section__dates,
+.section__link,
+.section__description {
+    font-size: 0.6875rem;
+
+}
+.section__icon {
+    color: #F55A5A;
+    margin-right: 0.25em;
+    font-size: 0.7rem;
+}
+
+.section__country {
+    letter-spacing: 0.25em;
+
+}
+
+.section__link {
+    font-family: inherit;
+    font-weight: 400;
+    color: #918E9B;
+    margin-left: 0.75em;
+
+}
+
+.section__title {
+    margin: 0.25em 0;
+    font-size: 1.5625rem;
+}
+
+.section__dates {
+    margin: 0.5625em 0;
+    font-weight: 700;
+}
+
+.section__description {
+    line-height: 1rem;
+}
